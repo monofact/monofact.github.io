@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: "Monoly"
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "Monoly opens secure project spaces and communication channels between companies and teams, free of 3rd party oversight."
+
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl: 
+
+sass:
+  sass_dir: _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "http://monoly.com"
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "Monoly"
+
+# Social links in the site footer
+#twitter_username: "username"
+facebook_username: "sung.kw"
+#googleplus_username: "+username"
+#pinterest_username: "username"
+linkedin_username: "kiwoon.sung"
