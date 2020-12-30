@@ -20,6 +20,7 @@
 4. Portfolio
 5. Servise
 6. About
+6-1. Experience
 7. Testimonial
 7-1. Team
 8. Blog	
@@ -95,10 +96,13 @@ a,
 }
 
 /*** Typography ***/
+h1 {
+	font-weight: bold!important;
+}
 
 h1, h2, h3, h4, h5, h6 {
-	font: 60px/1.2 'Roboto', sans-serif;
-	text-transform: uppercase;
+	font: 60px 'Roboto', sans-serif;
+	/* text-transform: uppercase; */
 	/* letter-spacing: 5px; */
 	/* margin: 5px 0 5px; */
 	color: #5b5963;
@@ -440,9 +444,10 @@ textarea.form-control {
 
 .module-line {
 	background: #666;
+	color: #666!important;
 	width: 55px;
-	height: 1px;
-	margin: 30px auto;
+	height: 0px;
+	margin: 80px auto;
 }
 
 .module-icon {
@@ -527,13 +532,13 @@ textarea.form-control {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: #fa1f55;
+	/* background: #fa1f55;
 	background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
 	background: -webkit-gradient(left bottom, right top, color-stop(0%, #fa1f55), color-stop(100%, #fd735a));
 	background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
 	background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
 	background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-	background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+	background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%); */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
 	opacity: 0.5;
 }
@@ -570,7 +575,7 @@ textarea.form-control {
 
 .intro {
 	position: absolute;
-	width: 100%;
+	width: 160%;
 	top: 50%;
 	left: 0;
 	text-align: center;
@@ -581,7 +586,7 @@ textarea.form-control {
 	transform: translate(0%, -50%);
 	padding: 60px 30px;
 	margin: 0 auto;
-	max-width: 950px;
+	max-width: 1100px;
 	left: 0;
 	right: 0;
 	background: url(../images/pattern1.png);
@@ -594,16 +599,16 @@ textarea.form-control {
 
 .hello,
 .who-creates {
-	font-size: 17px;
+	font-size: 24px;
 	text-transform: none;
 	margin: 15px 0;
-	font-weight: 200;
+	font-weight: bold;
 }
 
 /*Mouse animate icon*/
 
 .mouse-icon {
-	position: absolute;
+	position: absolute;	
 	left: 50%;
 	bottom: 60px;
 	border: 2px solid #fff;
@@ -1101,6 +1106,13 @@ figure {
 	margin: 0 0 15px;
 	padding: 0;
 }
+/* ---------------------------------------------- /*
+*  6-1. Experience
+/* ---------------------------------------------- */
+.margin-1 {
+	margin: 25px 0 125px 0 !important;
+}
+
 
 /* ---------------------------------------------- /*
 *  7. Testimonial
@@ -1405,6 +1417,259 @@ figure {
 }
 
 /* ---------------------------------------------- /*
+*  8-1. Features
+/* ---------------------------------------------- */
+
+.list-items-container .list-item .featureList, .featureList {
+    position: relative;
+    font-size: inherit;
+    text-indent: 0;
+}
+
+.featureList {
+	background: #fff none repeat scroll 0 0;
+    position: relative;
+    max-width: 371px;
+    margin: 30px auto;
+    box-shadow: 6px 10px 40px rgba(0,0,0,0.06);
+    display: block;
+    color: #5b5963 !important;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    font-size: inherit;
+    text-indent: 0;
+}
+
+.featureList-desc {
+	padding: 25px 20px;
+}
+
+.featureList-img {
+	position: relative;
+}
+
+.featureList-img img, .feature-wrapper.list-items-container .list-item img {
+    height: 240px;
+    width: 111.4%;
+    object-fit: cover;
+}
+
+.featureList-img span {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
+    color: #429f98;
+    transition: all 0.5s ease 0s;
+    text-transform: capitalize;
+}
+
+.featureList:hover {
+	margin-top: 25px;
+}
+
+.featureList:hover .featureList-img span {
+    background: rgba(253,115,90,1);
+    color: #fff;
+}
+
+.featureList-desc h3 {
+    margin-bottom: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.feature-viewMore {
+    display: block;
+    font: 400 13px/1.2 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    background: rgba(253,115,90,1);
+    color: #fff;
+    max-width: 170px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.feature-viewMore:hover {
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+.feature-items-container {
+	    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-item {
+	    display: block;
+    list-style: outside none none;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 33.333%;
+    -webkit-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    -moz-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    -ms-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    -o-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+}
+
+.list-items-container.feature-wrapper .list-item {
+    margin-bottom: 0;
+}
+
+.feature-detail-contents {
+    max-width: 800px;
+    margin: -100px auto 0px;
+    background: #fff;
+    display: block;
+    padding: 30px;
+    z-index: 11;
+    position: relative;
+    border-radius: 10px;
+}
+
+.feature-detail-content p {
+    margin: 15px 0;
+}
+
+.feature-detail-content h3 {
+    margin: 20px 0;
+}
+
+.feature-detail-content h2 {
+	margin: 25px 0;	
+}
+
+.feature-detail-content blockquote {
+    font-size: 15px;
+    background: #f5f5f5;
+    border-color: rgba(253,115,90,1);
+}
+
+.feature-detail-content blockquote p {
+	margin: 0;
+}
+
+.feature-detail-content img {
+	width: 100%;
+	margin: 15px 0;
+	height: 350px;
+	object-fit: cover;
+}
+
+.feature-detail-about .media-body {
+    width: auto;
+}
+
+.feature-detail-about .media-body p{
+	margin: 0;
+}
+
+.feature-detail-about .media {
+    margin-bottom: 20px;
+}
+
+.feature-detail-about img.media-object {
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.media-body, .media-left, .media-right {
+    vertical-align: middle;
+}
+
+.feature-detail-category {
+    padding: 3px 15px;
+    color: #fff;
+    text-transform: capitalize;
+    background: rgba(253,115,90,1);
+    border-radius: 2px;
+    margin: 15px 0;
+}
+
+.feature-detail-banner img {
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.feature-detail-tags ul {
+	margin: 0;
+	padding: 0;
+}
+
+.feature-detail-tags ul li {
+	display: inline-block;
+}
+
+.tags {
+	display: inline-block;
+    padding: 4px 10px;
+    background-color: #f5f5f5;
+    color: #5b5963;
+    margin-right: 5px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.tags:hover {
+	background-color: rgba(253,115,90,1);
+	color: #ffffff;
+}
+
+.feature-detail-sib {
+    padding: 40px 0 20px;
+}
+
+.feature-detail-sib .feature-nav span {
+    font-size: 13px;
+    display: block;
+    color: #5b5963;
+}
+
+.feature-detail-sib .feature-nav p {
+    font-size: 16px;
+    color: #5b5963;
+    margin: 0;
+}
+
+.feature-nav {
+    padding: 10px;
+    background: #f5f5f5;
+    transition: all 0.125s ease-in-out 0s;
+    display: block;
+    border-radius: 3px;
+}
+
+.feature-nav:hover {
+    background: rgba(253,115,90,1);
+    color: #fff;
+}
+
+.feature-nav:hover p, .feature-nav:hover span {
+	color: #fff;
+}
+
+/* ---------------------------------------------- /*
 *  9. Contact and Map
 /* ---------------------------------------------- */
 
@@ -1695,7 +1960,7 @@ figure {
 @media (max-width: 767px) {
 
 	.module {
-		padding: 80px 0;
+		padding: 10px 0;
 	}
 
 	.list-items-container .list-item {
