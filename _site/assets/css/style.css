@@ -101,7 +101,7 @@ h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font: 60px 'Roboto', sans-serif;
+	font: 70px 'Roboto', sans-serif;
 	/* text-transform: uppercase; */
 	/* letter-spacing: 5px; */
 	/* margin: 5px 0 5px; */
@@ -312,7 +312,9 @@ textarea.form-control {
 }
 
 .btn-custom-2 {
-	background: rgba(253,115,90,1);
+	/* background: rgba(253,115,90,1); */
+	background: #03BD5D;
+
 	border-radius: 3px;
 	color: #fff;
 }
@@ -321,7 +323,8 @@ textarea.form-control {
 .btn-custom-2:focus,
 .btn-custom-2:active,
 .btn-custom-2.active {
-	background: rgba(253,115,90,1);
+	/* background: rgba(253,115,90,1); */
+	background: #03BD5D;
 	color: #fff;
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.1) 
 }
@@ -763,7 +766,9 @@ textarea.form-control {
 }
 
 .navbar-custom .nav li.active, .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .navbar-nav > li.active a {
-	background: rgba(253,115,90,1);
+	/* background: rgba(253,115,90,1); */
+	background: #03BD5D;
+
 	color: #fff;
 	outline: 0 none;
 }
@@ -1035,20 +1040,44 @@ figure {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: -35px;
-	height: 80px;
-	width: 80px;
+	top: -80px;
+	height: 160px;
+	width: 160px;
 	margin: 0 auto;
 	background: #fff;
 	display: block;
 	line-height: 80px;
-	border-radius: 50px;
+	border-radius: 80px;
 	font-size: 30px;
 	box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
 }
 
+.iconbox-icon-01 {
+	background: url("../images/ksung.png") scroll center no-repeat;
+}
+
+.iconbox-icon-02 {
+	background: url("../images/rkim.png") scroll center no-repeat;
+}
+
+.iconbox-icon-03 {
+	background: url("../images/akeum.png") scroll center no-repeat;
+}
+
+.iconbox-icon-04 {
+	background: url("../images/skim.png") scroll center no-repeat;
+}
+
+.iconbox-icon-05 {
+	background: url("../images/kpak.png") scroll center no-repeat;
+}
+
+.iconbox-icon-06 {
+	background: url("../images/dkwon.png") scroll center no-repeat;
+}
+
 .iconbox-text {
-	padding-top: 30px;
+	padding-top: 60px;
 }
 
 .iconbox-title {
@@ -1078,9 +1107,19 @@ figure {
 	height: 100%;
 }
 
+.side-image-experience {
+	position: absolute;
+	background: url("../images/experience.png") scroll center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
 .side-image-text {
 	background: #fff;
-	padding: 100px 60px 50px;
+	padding: 30px 60px 10px;
 }
 
 .iconboxleft {
@@ -1096,6 +1135,22 @@ figure {
 	font-size: 32px;
 	line-height: 1;
 	color: rgba(253,115,90,1);
+
+}
+.iconboxleft-icon-01 {
+	background: url("../images/icon/42/tag_nor.png") scroll center no-repeat;
+}
+
+.iconboxleft-icon-02 {
+	background: url("../images/icon/42/grouptalk.png") scroll center no-repeat;
+}
+
+.iconboxleft-icon-03 {
+	background: url("../images/icon/42/privacy.png") scroll center no-repeat;
+}
+
+.iconboxleft-icon-04 {
+	background: url("../images/icon/42/Frame\ 1.png") scroll center no-repeat;
 }
 
 .iconboxleft-text {
@@ -1110,7 +1165,15 @@ figure {
 *  6-1. Experience
 /* ---------------------------------------------- */
 .margin-1 {
-	margin: 25px 0 125px 0 !important;
+	margin: 0 0 125px 0 !important;
+}
+
+.margin-2 {
+	margin: 0 0 125px 0 !important;
+	text-align: center!important;
+	font-size: 40px!important;
+	color: #03BD5D!important;
+	font-weight: bold;
 }
 
 
@@ -1160,7 +1223,7 @@ figure {
 /* ---------------------------------------------- */
 
 .iconbox-desc {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 /* ---------------------------------------------- /*
@@ -1244,7 +1307,9 @@ figure {
     -ms-transition: all 0.4s ease-in-out 0s;
     -o-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
-    background: rgba(253,115,90,1);
+	/* background: rgba(253,115,90,1); */
+	background: #03BD5D;
+
     color: #fff;
     max-width: 170px;
     margin: 10px auto;
@@ -1480,7 +1545,8 @@ figure {
     margin-bottom: 15px;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	font-weight: bold;
 }
 
 .feature-viewMore {
