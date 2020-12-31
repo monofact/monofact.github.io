@@ -4,6 +4,6 @@
 .idea/monofact.github.io.iml
 .idea/vcs.xml
 .idea/workspace.xml
-_site/*
+**./_site/*/*
 .jekyll-cache
 outline_k.sung.txt

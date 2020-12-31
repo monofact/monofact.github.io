@@ -605,7 +605,8 @@ textarea.form-control {
 	font-size: 24px;
 	text-transform: none;
 	margin: 15px 0;
-	font-weight: bold;
+	font-weight: 100;
+	padding-right: 200px;
 }
 
 /*Mouse animate icon*/
