@@ -1082,6 +1082,15 @@ figure {
 }
 
 .iconbox-title {
+	font-size: 26px!important;
+	color: #03BD5D;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+.iconbox-sub-title {
+	font-size: 18px !important;
+	font-weight: bold!important;
 	margin: 0 0 15px;
 	padding: 0;
 }
